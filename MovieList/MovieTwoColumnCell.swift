@@ -16,6 +16,7 @@ class MovieTwoColumnCell:UICollectionViewCell {
     
     @IBOutlet weak var movieYear: UILabel!
     
+    
     func setup(movie:Movie){
         movieImage.image = movie.image
         movieName.text = movie.title
